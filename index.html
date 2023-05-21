@@ -6,12 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Fontes -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="CSS/style.css" />
     <title>Document</title>
   </head>
@@ -56,13 +62,21 @@
         </div>
       </div>
     </section>
-    <form>
-        <div class="form">
-            <h1>Conheça mais sobre nossos serviços:</h1>  
-            <input type="text" placeholder="Nome">  
-            <input type="text" placeholder="Email">
-            <button>Fale Conosco</button>
-          </div>
+    <form
+      action="https://api.sheetmonkey.io/form/oGMNSgyCYZfknbN7r5FcrU"
+      method="POST"
+    >
+      <div class="form">
+        <h1>Conheça mais sobre nossos serviços:</h1>
+        <input type="text" placeholder="Nome" name="Name" required />
+        <input type="text" placeholder="Email" name="Email" required />
+        <input
+          type="hidden"
+          name="Created"
+          value="x-sheetmonkey-current-date-time"
+        />
+        <button type="submit">Fale Conosco</button>
+      </div>
     </form>
   </body>
 </html>
